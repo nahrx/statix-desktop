@@ -1,0 +1,112 @@
+#logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 10% 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+
+.x {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: darkred;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    margin: 0;
+    font-size: 90%;
+    cursor: pointer;
+}
+.select-files {
+    background-color: #3C5B6F;
+    width: 80%;
+    min-height: 30px;
+    line-height: 20px;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 0px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 8px;
+}
+.select-files div{
+    background-color: rgba(27, 38, 54, 1);
+    box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur) var(--card-box-shadow-1), 0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur) var(--card-box-shadow-2), 0 0 0 1px var(--card-border-color);
+    padding: 8px 5px 5px 5px;
+    position: relative;
+    transition: box-shadow .25s;
+    font-size: 70%;
+    margin:5px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.log-result {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    max-height: 200px; /* Set your desired max height here */
+    width: 80%;
+    text-align: center;
+    background-color: #3C5B6F;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 80%;
+    text-align: left;
+    
+}
+
+.log-result p{
+    padding: 0 10px;
+}
+
+.input-box .btn {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.input-box .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.input-box .input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.input-box .input:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.input-box .input:focus {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.red{
+    color:#FFCBCB;
+}
